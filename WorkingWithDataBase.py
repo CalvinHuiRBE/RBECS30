@@ -19,13 +19,12 @@ Marvel_Superheros = {
   "Thing": {
            "Name": "Ben Grimm",
            "Weapons": ["Fists"],
-           "Powers": ["Immortal", "Super Strength",
-                      "Enhanced Lung Capacity", "Good Fighter"], "Weakness": [None]},
+           "Powers": ["Immortal", "Super Strength", "Enhanced Lung Capacity", "Good Fighter"],
+           "Weakness": [None]},
   "Baby_Groot": {
            "Name": "Baby Groot",
            "Weapons": ["Strong Branches"],
-           "Super Powers": ["Self-Healing", "Controls Plant",
-                            "Immune to Fire"],
+           "Super Powers": ["Self-Healing", "Controls Plant", "Immune to Fire"],
            "Weaknesses": ["Termites"]},
   "Ironman": {
            "Name": "Tony Stark",
