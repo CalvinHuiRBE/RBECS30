@@ -9,8 +9,6 @@ import sys
 possible_actions = ["explore", "attack", "defend", "heal", "quit"]
 # possible directions
 possible_directions = ["north", "south", "east", "west", "back"]
-# counter
-count = 0
 while True:
     # Flag for validation
     flag = 1
@@ -64,6 +62,5 @@ while True:
                     print("Back to main menu.")
                     break
             if flag == 1:
-                count = count + 1
-                print("The amount of times played ", count)
+                print()
                 break
