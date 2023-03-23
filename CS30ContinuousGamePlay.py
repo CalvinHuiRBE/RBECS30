@@ -9,9 +9,11 @@ import sys
 possible_actions = ["explore", "attack", "defend", "heal", "quit"]
 # possible directions
 possible_directions = ["north", "south", "east", "west", "back"]
+# main menu loop
 while True:
     # Flag for validation
     flag = 1
+
     # print title
     print()
     print(" *** RPG Menu *** ")
@@ -22,6 +24,7 @@ while True:
     for action in possible_actions:
         print(f"{action}")
 
+    # input action
     action_input = input("Action: ")
 
     # prints action message for options without sub menu
@@ -44,8 +47,10 @@ while True:
                 for direction in possible_directions:
                     print(f" * {direction}")
 
+                # input direction
                 direction_input = input("Which direction do you want to go? ")
 
+                # if it's not back then proceed with directions inputs
                 if direction_input.lower() != "back":
 
                     # if the input is valid prints out a message
@@ -61,6 +66,7 @@ while True:
                 if direction_input.lower() == "back":
                     print("Back to main menu.")
                     break
+            # flag for validation to continue loop
             if flag == 1:
                 print()
                 break
