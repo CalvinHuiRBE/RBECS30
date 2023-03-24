@@ -1,5 +1,6 @@
 # -----------------------------------------------------------------------------
 # Title: Writing and Reading a File Example
+# Name: Calvin, Abdullah and Saubaan
 # Version: 001
 # -----------------------------------------------------------------------------
 """ Example Code - writing to an external file.
