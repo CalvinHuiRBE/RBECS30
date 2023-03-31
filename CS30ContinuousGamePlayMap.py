@@ -1,15 +1,15 @@
-###############################################################################
+########################################################
 # Title: CS 30 RPG Map
 # coder: Calvin Hui
 # version: 002
-###############################################################################
+########################################################
 """ This is an RPG Map """
 
 # map layout
 Map = [
-    ["shed", "backyard", "flowerbed"],
-    ["kitchen", "dining-room", "living-room"],
-    ["washroom", "front-foyer", "garage"]
+    ['shed', 'backyard', 'flowerbed'],
+    ['kitchen', 'dining-room', 'living-room'],
+    ['washroom', 'front-foyer', 'garage']
 ]
 # start location
 row = 2
@@ -60,30 +60,31 @@ def movement():
             print(f"Sorry cant go that way!")
 
 
-# prints message with the corresponding location on the map
+# prints message
+# with the corresponding location on the map
 while playing:
     location_description = Map[row][col]
-    if location_description == "front-foyer":
+    if location_description == 'front-foyer':
         print(f"Welcome to the Abandoned House.")
         print(f"If you would like to leave type: Quit.")
         movement()
-    if location_description == "living-room":
+    if location_description == 'living-room':
         print(f"The Living room")
         print(f"Doesnt seem like anyone is living here.")
         movement()
-    if location_description == "garage":
+    if location_description == 'garage':
         print(f"The Garage")
-        print(f"Just a garage, doesnt seem like there is anything interesting.")
+        print(f"Just a garage, doesn't seem like there is anything interesting.")
         movement()
-    if location_description == "flowerbed":
+    if location_description == 'flowerbed':
         print(f"The Flowerbed")
         print(f"Beautiful flowers but there is something shiny in stuck in the flowerbed.")
         movement()
-    if location_description == "shed":
+    if location_description == 'shed':
         print(f"The Shed")
-        print(f"Theres a shed in the backyard, but seems like its locked.")
+        print(f"There's a shed in the backyard, but seems like its locked.")
         movement()
-    if location_description == "dining-room":
+    if location_description == 'dining-room':
         print(f"The Dining Room")
         print(f"It smells.")
         movement()
